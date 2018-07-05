@@ -1,7 +1,7 @@
-package hello.rest;
+package ru.zuma.rest;
 
+import ru.zuma.rest.model.User;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -28,7 +28,7 @@ public class AuthController {
     }
 
     @RequestMapping(value = "/auth/register", method = RequestMethod.POST)
-    public ResponseEntity<hello.rest.User> register(@RequestBody hello.rest.User user, HttpServletResponse response) {
+    public ResponseEntity<User> register(@RequestBody User user, HttpServletResponse response) {
         if (user == null) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
@@ -51,7 +51,7 @@ public class AuthController {
     }
 
     @RequestMapping(value = "/auth/login", method = RequestMethod.POST)
-    public ResponseEntity<hello.rest.User> login(@RequestBody hello.rest.User user, HttpServletResponse response) {
+    public ResponseEntity<User> login(@RequestBody User user, HttpServletResponse response) {
         if (user == null) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }

@@ -1,4 +1,4 @@
-package hello.rest;
+package ru.zuma.rest.model;
 import java.util.HashMap;
 import java.util.Map;
 
