@@ -1,5 +1,6 @@
 package ru.zuma.rest;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -14,8 +15,7 @@ import java.util.List;
 public class ProductsController {
 
     @RequestMapping(value = "/products/hits", method = RequestMethod.GET)
-    @ResponseBody
-    public ProductHits register(@RequestParam("category") String category, HttpServletResponse response) {
+    public ResponseEntity<ProductHits> register(@RequestParam("category") String category, HttpServletResponse response) {
         List<Product> productList = new ArrayList<>();
 
         switch (category) {
@@ -40,10 +40,10 @@ public class ProductsController {
                 ));
                 break;
             default:
-                break;
+                return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
 
-        return new ProductHits(productList);
+        return new ResponseEntity<>(new ProductHits(productList), HttpStatus.OK);
     }
 
 }

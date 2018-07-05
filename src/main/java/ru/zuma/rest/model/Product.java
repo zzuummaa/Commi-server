@@ -1,5 +1,7 @@
 package ru.zuma.rest.model;
 
+import com.fasterxml.jackson.annotation.JsonGetter;
+
 public class Product {
 
     private long id;
@@ -63,6 +65,7 @@ public class Product {
         this.stars = stars;
     }
 
+    @JsonGetter(value = "is_liked")
     public boolean isLiked() {
         return isLiked;
     }
@@ -71,6 +74,7 @@ public class Product {
         isLiked = liked;
     }
 
+    @JsonGetter(value = "icon_id")
     public long getIconId() {
         return iconId;
     }
