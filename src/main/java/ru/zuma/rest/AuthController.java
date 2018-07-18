@@ -19,7 +19,7 @@ public class AuthController {
     private long cookieVal = (long) (Math.random() * Long.MAX_VALUE/2);
 
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<Object> handle(Exception ex,
+    public ResponseEntity<Void> handle(Exception ex,
                                          HttpServletRequest request, HttpServletResponse response) {
         if (ex instanceof NullPointerException) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);

@@ -6,57 +6,84 @@
     <groupId>ru.zuma</groupId>
     <artifactId>Commi-server</artifactId>
     <version>0.1.0</version>
+    <packaging>war</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.1.RELEASE</version>
+        <!--<version>2.0.1.RELEASE</version>-->
+        <version>1.4.2.RELEASE</version>
     </parent>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
 
+        <!-- marked the embedded servlet container as provided -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-        <!-- Use MySQL Connector-J, almost MySQL :D -->
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>1.7</java.version>
+        <start-class>ru.zuma.WarApplication</start-class>
+        <!--Uncomment two lines for tomcat deploy-->
+        <tomcat.version>7.0.69</tomcat.version>
+        <servlet-api.version>3.0.1</servlet-api.version>
     </properties>
 
 
     <build>
+        <finalName>commi</finalName>
         <plugins>
+
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <url>http://zzuummaa.sytes.net:8070/manager/text</url>
+                    <username>script-admin</username>
+                    <password>admin</password>
+                    <path>/commi</path>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
