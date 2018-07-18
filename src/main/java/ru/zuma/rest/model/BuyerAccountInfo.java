@@ -5,22 +5,23 @@ import java.io.Serializable;
 public class BuyerAccountInfo /* implements Serializable*/ {
     private long id;
     private String name;
-    private String sec_name;
-    private String last_name;
+    private String secName;
+    private String lastName;
     private String email;
     private String phone;
     private String address;
     private String metro;
 
-    public BuyerAccountInfo(){
-        this.id=12345;
-        this.name="anton";
-        this.sec_name="yuryevich";
-        this.last_name="Mamontov";
-        this.email="anton_mamont@bk.ru";
-        this.phone="+79294522166";
-        this.address="Госпитальный пер. д.4";
-        this.metro="Бауманская";
+    public BuyerAccountInfo(long id,String name,String secName,String lastName,String email,String phone,
+                            String address, String metro){
+        this.id = 12345;
+        this.name = name;
+        this.secName = secName;
+        this.lastName = lastName;
+        this.email = email;
+        this.phone = phone;
+        this.address = address;
+        this.metro = metro;
     }
     public String getName() {
         return name;
@@ -30,20 +31,20 @@ public class BuyerAccountInfo /* implements Serializable*/ {
         this.name = name;
     }
 
-    public String getSec_name() {
-        return sec_name;
+    public String getSecName() {
+        return secName;
     }
 
-    public void setSec_name(String sec_name) {
-        this.sec_name = sec_name;
+    public void setSecName(String secName) {
+        this.secName = secName;
     }
 
-    public String getLast_name() {
-        return last_name;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLast_name(String third_name) {
-        this.last_name = third_name;
+    public void setLastName(String third_name) {
+        this.lastName = third_name;
     }
 
     public String getEmail() {
@@ -90,8 +91,8 @@ public class BuyerAccountInfo /* implements Serializable*/ {
         return "BuyerAccountInfo{" +
                 "id:\"" + id + '\"' +
                 ",name:\"" + name + '\"' +
-                ", sec_name:\"" + sec_name + '\"' +
-                ", last_name:\"" + last_name + '\"' +
+                ", secName:\"" + secName + '\"' +
+                ", lastName:\"" + lastName + '\"' +
                 ", email:\"" + email + '\"' +
                 ", phone:\"" + phone + '\"' +
                 ", address:\"" + address + '\"' +
