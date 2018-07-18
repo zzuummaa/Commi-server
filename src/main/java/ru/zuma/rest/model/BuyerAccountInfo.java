@@ -26,7 +26,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
         this.address = address;
         this.metro = metro;
     }
-    @JsonGetter(value = "Name")
+    @JsonGetter(value = "name")
     public String getName() {
         return name;
     }
@@ -34,7 +34,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
     public void setName(String name) {
         this.name = name;
     }
-    @JsonGetter(value = "SecName")
+    @JsonGetter(value = "sec_name")
     public String getSecName() {
         return secName;
     }
@@ -42,7 +42,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
     public void setSecName(String secName) {
         this.secName = secName;
     }
-    @JsonGetter(value = "LastName")
+    @JsonGetter(value = "third_name")
     public String getLastName() {
         return lastName;
     }
@@ -50,7 +50,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-    @JsonGetter(value = "Email")
+    @JsonGetter(value = "email")
     public String getEmail() {
         return email;
     }
@@ -58,7 +58,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
     public void setEmail(String email) {
         this.email = email;
     }
-    @JsonGetter(value = "Phone")
+    @JsonGetter(value = "phone")
     public String getPhone() {
         return phone;
     }
@@ -66,7 +66,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-    @JsonGetter(value = "Address")
+    @JsonGetter(value = "address")
     public String getAddress() {
         return address;
     }
@@ -74,7 +74,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
     public void setAddress(String address) {
         this.address = address;
     }
-    @JsonGetter(value = "Metro")
+    @JsonGetter(value = "metro")
     public String getMetro() {
         return metro;
     }
@@ -82,7 +82,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
     public void setMetro(String metro) {
         this.metro = metro;
     }
-    @JsonGetter(value = "ID")
+    @JsonGetter(value = "id")
     public long getId() {
         return id;
     }
