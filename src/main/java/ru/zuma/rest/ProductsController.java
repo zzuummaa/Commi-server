@@ -4,12 +4,16 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import ru.zuma.rest.model.BuyerAccountInfo;
 import ru.zuma.rest.model.Product;
 import ru.zuma.rest.model.ProductHits;
 
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.Cookie;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.List;
+
 
 @Controller
 public class ProductsController {
