@@ -2,6 +2,7 @@ package ru.zuma.rest.model;
 
 import java.io.Serializable;
 
+
 public class BuyerAccountInfo /* implements Serializable*/ {
     private long id;
     private String name;

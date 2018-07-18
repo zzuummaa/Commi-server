@@ -4,7 +4,7 @@ import ru.zuma.rest.model.BuyerAccountInfo;
 
 import java.util.HashMap;
 
-public class UserManager {
+/*public class UserManager {
     private HashMap<String, BuyerAccountInfo> users;
 
     private UserManager(){
@@ -19,4 +19,4 @@ public class UserManager {
     public static UserManager instance() {
         return UserManager;
     }
-}
+}*/

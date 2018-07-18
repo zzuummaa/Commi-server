@@ -49,10 +49,5 @@ public class ProductsController {
 
         return new ResponseEntity<>(new ProductHits(productList), HttpStatus.OK);
     }
-    @RequestMapping(value = "/buyer/account/info/get", method = RequestMethod.GET)
-    public ResponseEntity<BuyerAccountInfo> getInfo(/*@RequestParam("cookie") Cookie cookie,*/ HttpServletResponse response) {
-        return new ResponseEntity<>(new BuyerAccountInfo(12345,"anton","yuryevich","Mamontov",
-                "anton_mamont@bk.ru","+79294522166","Госпитальный пер. д.4","Бауманская"), HttpStatus.OK);
-    }
 
 }
