@@ -1,5 +1,7 @@
 package ru.zuma.rest.model;
 
+import com.fasterxml.jackson.annotation.JsonGetter;
+
 import java.io.Serializable;
 
 
@@ -24,6 +26,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
         this.address = address;
         this.metro = metro;
     }
+    @JsonGetter(value = "Name")
     public String getName() {
         return name;
     }
@@ -31,7 +34,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
     public void setName(String name) {
         this.name = name;
     }
-
+    @JsonGetter(value = "SecName")
     public String getSecName() {
         return secName;
     }
@@ -39,15 +42,15 @@ public class BuyerAccountInfo /* implements Serializable*/ {
     public void setSecName(String secName) {
         this.secName = secName;
     }
-
+    @JsonGetter(value = "LastName")
     public String getLastName() {
         return lastName;
     }
 
-    public void setLastName(String third_name) {
-        this.lastName = third_name;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
-
+    @JsonGetter(value = "Email")
     public String getEmail() {
         return email;
     }
@@ -55,7 +58,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
     public void setEmail(String email) {
         this.email = email;
     }
-
+    @JsonGetter(value = "Phone")
     public String getPhone() {
         return phone;
     }
@@ -63,7 +66,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
+    @JsonGetter(value = "Address")
     public String getAddress() {
         return address;
     }
@@ -71,7 +74,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
     public void setAddress(String address) {
         this.address = address;
     }
-
+    @JsonGetter(value = "Metro")
     public String getMetro() {
         return metro;
     }
@@ -79,7 +82,7 @@ public class BuyerAccountInfo /* implements Serializable*/ {
     public void setMetro(String metro) {
         this.metro = metro;
     }
-
+    @JsonGetter(value = "ID")
     public long getId() {
         return id;
     }
