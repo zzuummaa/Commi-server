@@ -1,0 +1,216 @@
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-18T054944.200.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-18T054831.200.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-18T054816.200.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-18T054754.200.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T111903.200.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T111350.200.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T110845.200.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T110806.200.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T110600.200.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T110548.200.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T110531.200.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T110431.200.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T110248.500.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T110234.500.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T110233.500.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T110213.500.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T110059.500.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T110041.500.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T110038.500.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T105905.500.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T105843.500.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics&cookie=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T105700.500.json
+
+###
+
+GET http://localhost:8080/buyer/account/info/get?category=technics
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T105558.400.json
+
+###
+
+GET http://localhost:8080/products/hits?category=technics
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T105422.200.json
+
+###
+
+GET http://localhost:8080/products/hits
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T105146.400.json
+
+###
+
+GET http://localhost:8080//products/hits
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T105117.400.json
+
+###
+
+GET http://localhost:8080//products/hits
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-14T105034.400.json
+
+###
+
