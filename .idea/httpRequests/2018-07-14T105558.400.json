@@ -1,7 +1,0 @@
-{
-  "timestamp": "2018-07-14T19:55:58.109+0000",
-  "status": 400,
-  "error": "Bad Request",
-  "message": "Required Cookie parameter 'cookie' is not present",
-  "path": "/buyer/account/info/get"
-}

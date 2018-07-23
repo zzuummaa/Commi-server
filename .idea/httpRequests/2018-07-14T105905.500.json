@@ -1,7 +1,0 @@
-{
-  "timestamp": "2018-07-14T19:59:05.827+0000",
-  "status": 500,
-  "error": "Internal Server Error",
-  "message": "Failed to convert value of type 'java.lang.String' to required type 'javax.servlet.http.Cookie'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'java.lang.String' to required type 'javax.servlet.http.Cookie': no matching editors or conversion strategy found",
-  "path": "/buyer/account/info/get"
-}

@@ -1,7 +1,0 @@
-{
-  "timestamp": "2018-07-14T19:50:34.313+0000",
-  "status": 400,
-  "error": "Bad Request",
-  "message": "Required String parameter 'category' is not present",
-  "path": "/products/hits"
-}
