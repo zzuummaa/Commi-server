@@ -4,6 +4,7 @@ import ru.zuma.rest.model.BuyerAccountInfo;
 
 import java.util.HashMap;
 //TODO MAKE IT WORK
+//WTF?
 /*public class UserManager {
     private HashMap<String, BuyerAccountInfo> users;
 
