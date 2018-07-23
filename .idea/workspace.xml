@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26443524-d82f-4d38-90aa-8d2cbf68b095" name="Default" comment="v">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T105034.400.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T105117.400.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T105146.400.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T105422.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T105558.400.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T105700.500.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T105843.500.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T105905.500.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T110038.500.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T110041.500.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T110059.500.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T110213.500.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T110233.500.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T110234.500.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T110248.500.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T110431.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T110531.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T110548.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T110600.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T110806.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T110845.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T111350.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-14T111903.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-18T054754.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-18T054816.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-18T054831.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-07-18T054944.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="26443524-d82f-4d38-90aa-8d2cbf68b095" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -313,7 +282,7 @@
       <updated>1531953572044</updated>
       <workItem from="1531953585032" duration="3411000" />
       <workItem from="1532012125042" duration="88000" />
-      <workItem from="1532379424565" duration="1283000" />
+      <workItem from="1532379424565" duration="1397000" />
     </task>
     <task id="LOCAL-00001" summary="v0.1&#10;deleted target?">
       <created>1532380563974</created>
@@ -322,11 +291,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532380563974</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v0.11&#10;deleted .idea">
+      <created>1532380803747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532380803747</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4782000" />
+    <option name="totallyTimeSpent" value="4896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -371,8 +347,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="v0.1&#10;deleted target?" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.1&#10;deleted target?" />
+    <MESSAGE value="v0.11&#10;deleted .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.11&#10;deleted .idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
