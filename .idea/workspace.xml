@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26443524-d82f-4d38-90aa-8d2cbf68b095" name="Default" comment="v0.12&#10;deleted full .idea">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="26443524-d82f-4d38-90aa-8d2cbf68b095" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -284,7 +282,7 @@
       <updated>1531953572044</updated>
       <workItem from="1531953585032" duration="3411000" />
       <workItem from="1532012125042" duration="88000" />
-      <workItem from="1532379424565" duration="1481000" />
+      <workItem from="1532379424565" duration="1670000" />
     </task>
     <task id="LOCAL-00001" summary="v0.1&#10;deleted target?">
       <created>1532380563974</created>
@@ -307,11 +305,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532380867812</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v0.12&#10;deleted full .idea">
+      <created>1532380962013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532380962013</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4980000" />
+    <option name="totallyTimeSpent" value="5169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -356,7 +361,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="v0.1&#10;deleted target?" />
     <MESSAGE value="v0.11&#10;deleted .idea" />
     <MESSAGE value="v0.12&#10;deleted full .idea" />
