@@ -2,6 +2,8 @@ package ru.zuma.rest.model;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 
+import java.util.Map;
+
 public class Product {
 
     private long id;
@@ -11,6 +13,7 @@ public class Product {
     private float stars;
     private boolean isLiked;
     private long iconId;
+    private Map<String, String> characteristics;
 
     public Product() {
     }
@@ -23,6 +26,17 @@ public class Product {
         this.stars = stars;
         this.isLiked = isLiked;
         this.iconId = iconId;
+    }
+
+    public Product(long id, String category, String name, float price, float stars, boolean isLiked, long iconId, Map<String, String> characteristics) {
+        this.id = id;
+        this.category = category;
+        this.name = name;
+        this.price = price;
+        this.stars = stars;
+        this.isLiked = isLiked;
+        this.iconId = iconId;
+        this.characteristics = characteristics;
     }
 
     public long getId() {
@@ -81,5 +95,13 @@ public class Product {
 
     public void setIconId(long iconId) {
         this.iconId = iconId;
+    }
+
+    public Map<String, String> getCharacteristics() {
+        return characteristics;
+    }
+
+    public void setCharacteristics(Map<String, String> characteristics) {
+        this.characteristics = characteristics;
     }
 }

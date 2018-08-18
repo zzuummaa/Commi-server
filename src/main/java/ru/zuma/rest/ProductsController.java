@@ -3,15 +3,14 @@ package ru.zuma.rest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
-import ru.zuma.rest.model.BuyerAccountInfo;
-import ru.zuma.rest.model.Product;
-import ru.zuma.rest.model.ProductHits;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import ru.zuma.rest.model.*;
 
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.Cookie;
-import java.io.ObjectOutputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 
@@ -19,11 +18,18 @@ import java.util.List;
 public class ProductsController {
 
     @RequestMapping(value = "/products/hits", method = RequestMethod.GET)
-    public ResponseEntity<ProductHits> register(@RequestParam("category") String category, HttpServletResponse response) {
+    public ResponseEntity<ProductHits> getHits(@RequestParam("category") String category, HttpServletResponse response) {
         List<Product> productList = new ArrayList<>();
 
         switch (category) {
             case "technics":
+                HashMap<String, String> characteristics = new HashMap<>();
+                characteristics.put("Тип устройства", "Смартфон");
+                characteristics.put("Тип ОС", "IOS 11");
+                characteristics.put("SIM-карты", "nano SIM");
+                characteristics.put("Тип корпуса", "Стекло");
+                characteristics.put("Срок гаранитии", "1 год");
+                characteristics.put("Производитель", "Apple");
                 productList.add(new Product(
                         1,
                         category,
@@ -31,7 +37,8 @@ public class ProductsController {
                         61_190,
                         4,
                         false,
-                        1
+                        1,
+                        characteristics
                 ));
                 productList.add(new Product(
                         1,
@@ -40,7 +47,8 @@ public class ProductsController {
                         61_190,
                         4,
                         false,
-                        2
+                        2,
+                        characteristics
                 ));
                 break;
             case "cosmetics":
@@ -310,4 +318,17 @@ public class ProductsController {
         return new ResponseEntity<>(new ProductHits(productList), HttpStatus.OK);
     }
 
+    @RequestMapping(value = "/products/offers", method = RequestMethod.GET)
+    public ResponseEntity<StoresOffers> getOffersById(@RequestParam("id") Long id) {
+        List<Offer> offersList = new ArrayList<>();
+        offersList.add(new Offer(
+            2, 74_230f, true,
+            new Shop(
+                2, null, null, "Бауманская",
+                "Москва, Пресненская\nнабережная дом 2", 8
+            )
+        ));
+        StoresOffers storesOffers = new StoresOffers(offersList);
+        return new ResponseEntity<>(storesOffers, HttpStatus.OK);
+    }
 }
